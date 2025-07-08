@@ -1,6 +1,9 @@
 # 忽略 SensiCut2021 数据文件夹
 SensiCut2021/
 
+# 忽略图片文件
+*.png
+
 # Python 相关
 __pycache__/
 *.py[cod]
@@ -35,6 +38,7 @@ MANIFEST
 
 # Virtual environment
 venv/
+.venv/
 env/
 ENV/
 
